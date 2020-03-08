@@ -1,0 +1,11 @@
+source /opt/fsl-imx-xwayland/4.19-warrior/environment-setup-aarch64-poky-linux
+
+export ARCH=arm64
+
+make imx8qxp_mek_defconfig
+make -j20
+
+
+
+
+
